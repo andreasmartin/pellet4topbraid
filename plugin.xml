@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.topbraid.core.pluginActivators">
+      <activator
+            class="pellet4topbraid.PelletPluginActivator">
+      </activator>
+   </extension>
+   <extension
+         point="org.topbraid.inference.inferenceEngines">
+      <inferenceEngine
+            class="pellet4topbraid.PelletInferenceEngine"
+            id="pellet4topbraid.inferenceEngine"
+            name="Pellet 2.3.0">
+      </inferenceEngine>
+   </extension>
+
+</plugin>

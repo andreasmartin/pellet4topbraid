@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pellet Plugin for TopBraid Composer
+Bundle-SymbolicName: pellet4topbraid;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.topbraid.base,
+ org.topbraid.core,
+ org.topbraid.lib.jena,
+ org.topbraid.inference,
+ org.topbraid.spin,
+ org.topbraid.spin.sparqlmotion
+Bundle-ClassPath: lib/aterm-java-1.6.jar,
+ lib/pellet-core.jar,
+ lib/pellet-datatypes.jar,
+ lib/pellet-el.jar,
+ lib/pellet-jena.jar,
+ lib/pellet-rules.jar,
+ .,
+ lib/jgrapht-jdk1.5.jar
+Bundle-Vendor: Darth Semanticus
