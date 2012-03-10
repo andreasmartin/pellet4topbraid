@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Pellet Plugin for TopBraid Composer
+Bundle-Name: Pellet Plug-in for TopBraid
 Bundle-SymbolicName: pellet4topbraid;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
