@@ -9,8 +9,10 @@ public class PelletPluginActivator implements IPluginActivator {
 	@Override
 	public void activate() {
 		// Called when TopBraid starts up to register new SM module type
-		SMModuleFactory.get().registerModuleType(new ApplyPelletModule(), 
-				new GenericModuleType(ApplyPelletModule.class),
-				"urn:x-pellet4topbraid:ApplyPellet");
+		SMModuleFactory.get().registerModuleType(
+			new ApplyPelletModule(), 
+			new GenericModuleType( ApplyPelletModule.class ),
+			"urn:x-pellet4topbraid#ApplyPellet"
+		);
 	}
 }

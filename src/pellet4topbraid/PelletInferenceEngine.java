@@ -14,13 +14,13 @@ public class PelletInferenceEngine implements IInferenceEngine {
 
 	@Override
 	public String getConfigClassURI() {
-		return "urn:x-pellet4topbraid:config";
+		return "urn:x-pellet4topbraid#config";
 	}
 
 	
 	@Override
 	public String getConfigPropertyURI() {
-		return "urn:x-pellet4topbraid:configProperty";
+		return "urn:x-pellet4topbraid#configProperty";
 	}
 
 	
@@ -36,10 +36,10 @@ public class PelletInferenceEngine implements IInferenceEngine {
 			ProgressMonitor monitor) throws InterruptedException {
 
 		// create Pellet reasoner
-        Reasoner reasoner = PelletReasonerFactory.theInstance().create();
+		Reasoner reasoner = PelletReasonerFactory.theInstance().create();
 
-        // create an inferencing model using Pellet reasoner and provided InfModel
-        return ModelFactory.createInfModel( reasoner, infModel );
+		// create an inferencing model using Pellet reasoner and provided InfModel
+		return ModelFactory.createInfModel( reasoner, infModel );
 	}
 
 	
