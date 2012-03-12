@@ -4,7 +4,7 @@
    <extension
          point="org.topbraid.core.pluginActivators">
       <activator
-            class="pellet4topbraid.PelletPluginActivator">
+            class="pellet4topbraid.sm.PelletPluginActivator">
       </activator>
    </extension>
    <extension

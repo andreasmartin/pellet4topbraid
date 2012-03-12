@@ -1,4 +1,4 @@
-package pellet4topbraid;
+package pellet4topbraid.sm;
 
 import org.mindswap.pellet.jena.PelletReasonerFactory;
 import org.topbraid.base.progress.ProgressMonitor;
@@ -9,6 +9,7 @@ import com.hp.hpl.jena.graph.Graph;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.reasoner.Reasoner;
+
 
 /**
  * A SPARQLMotion module that applies Pellet on the input graph.

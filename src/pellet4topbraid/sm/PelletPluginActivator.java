@@ -1,8 +1,9 @@
-package pellet4topbraid;
+package pellet4topbraid.sm;
 
 import org.topbraid.core.activator.IPluginActivator;
 import org.topbraid.spin.sparqlmotion.modules.GenericModuleType;
 import org.topbraid.spin.sparqlmotion.modules.SMModuleFactory;
+
 
 public class PelletPluginActivator implements IPluginActivator {
 

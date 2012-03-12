@@ -35,11 +35,11 @@ public class PelletInferenceEngine implements IInferenceEngine {
 			IInferenceEngineConfiguration config, int index, Object init,
 			ProgressMonitor monitor) throws InterruptedException {
 
-		// create Pellet reasoner
-		Reasoner reasoner = PelletReasonerFactory.theInstance().create();
+			// create Pellet reasoner
+			Reasoner reasoner = PelletReasonerFactory.theInstance().create();
 
-		// create an inferencing model using Pellet reasoner and provided InfModel
-		return ModelFactory.createInfModel( reasoner, infModel );
+			// create an inferencing model using Pellet reasoner and provided InfModel
+			return ModelFactory.createInfModel( reasoner, infModel );
 	}
 
 	
