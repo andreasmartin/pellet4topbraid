@@ -1,3 +1,9 @@
+/*
+ * This file is part of the pellet4topbraid project.
+ * Homepage:  http://code.google.com/p/pellet4topbraid/
+ * 
+ */
+
 package pellet4topbraid;
 
 import org.mindswap.pellet.jena.PelletReasonerFactory;
