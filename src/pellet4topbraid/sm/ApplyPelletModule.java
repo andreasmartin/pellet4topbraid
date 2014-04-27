@@ -7,7 +7,7 @@
 package pellet4topbraid.sm;
 
 import org.mindswap.pellet.jena.PelletReasonerFactory;
-import org.topbraid.base.progress.ProgressMonitor;
+import org.topbraid.spin.progress.ProgressMonitor;
 import org.topbraid.spin.sparqlmotion.modules.AbstractSMModule;
 import org.topbraid.spin.sparqlmotion.modules.SMException;
 

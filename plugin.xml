@@ -12,7 +12,7 @@
       <inferenceEngine
             class="pellet4topbraid.PelletInferenceEngine"
             id="pellet4topbraid.inferenceEngine"
-            name="Pellet 2.3.0">
+            name="Pellet 2.3.1">
       </inferenceEngine>
    </extension>
 

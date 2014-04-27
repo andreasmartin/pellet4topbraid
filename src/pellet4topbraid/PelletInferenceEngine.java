@@ -7,9 +7,9 @@
 package pellet4topbraid;
 
 import org.mindswap.pellet.jena.PelletReasonerFactory;
-import org.topbraid.base.progress.ProgressMonitor;
 import org.topbraid.inference.IInferenceEngine;
 import org.topbraid.inference.IInferenceEngineConfiguration;
+import org.topbraid.spin.progress.ProgressMonitor;
 
 import com.hp.hpl.jena.rdf.model.InfModel;
 import com.hp.hpl.jena.rdf.model.Model;
@@ -32,7 +32,7 @@ public class PelletInferenceEngine implements IInferenceEngine {
 	
 	@Override
 	public String getDescription() {
-		return "The OWL DL inference engine Pellet 2.3.0";
+		return "The OWL DL inference engine Pellet 2.3.1";
 	}
 
 	
