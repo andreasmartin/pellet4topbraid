@@ -1,0 +1,39 @@
+Licenses
+--------
+
+Pellet4Topbraid [ http://code.google.com/p/pellet4topbraid/ ]
+---------------
+
+Pellet4Topbraid is distributed under the same OpenSource license as Pellet,
+The Affero GPL (AGPL) Version 3.  The AGPL license may be found in
+"licenses/agpl-3.0.txt".  Unless otherwise identified, assets included
+in this archive are unique to the Pellet4Topbraid project.
+
+
+Pellet [ http://clarkparsia.com/pellet/download/ ]
+--------------------------------------------------
+Pellet is made available under a dual licensing scheme defined in the
+"licenses/Pellet-License.txt" text file.  Pellet assets included in this project
+are:
+
+  lib/pellet-core.jar
+  lib/pellet-datatypes.jar
+  lib/pellet-el.jar
+  lib/pellet-jena.jar
+  lib/pellet-rules.jar
+  
+
+ATerm [ http://www.meta-environment.org/Meta-Environment/ATerms ]
+-----------------------------------------------------------------
+ATerm is made available under the GNU LGPL Version 2.1 license defined in the
+"licenses/LGPL-2.1.txt" file.  ATerm assets included in this project are:
+
+  lib/aterm-java-1.6.jar
+
+
+JGrapht [ http://www.jgrapht.org/ ]
+-----------------------------------
+JGrapht is made available under the GNU LGPL Version 2.1 license defined in the
+"licenses/LGPL-2.1.txt" file.  JGrapht assets included in this project are:
+
+  lib/jgrapht-jdk1.5.jar
