@@ -1,15 +1,8 @@
-/*
- * This file is part of the pellet4topbraid project.
- * Homepage:  http://code.google.com/p/pellet4topbraid/
- * 
- */
-
-package pellet4topbraid.sm;
+package pellet4topbraid;
 
 import org.topbraid.core.activator.IPluginActivator;
 import org.topbraid.spin.sparqlmotion.modules.GenericModuleType;
 import org.topbraid.spin.sparqlmotion.modules.SMModuleFactory;
-
 
 public class PelletPluginActivator implements IPluginActivator {
 
@@ -17,9 +10,10 @@ public class PelletPluginActivator implements IPluginActivator {
 	public void activate() {
 		// Called when TopBraid starts up to register new SM module type
 		SMModuleFactory.get().registerModuleType(
-			new ApplyPelletModule(), 
-			new GenericModuleType( ApplyPelletModule.class ),
+			new PelletSMModule(), 
+			new GenericModuleType( PelletSMModule.class ),
 			"urn:x-pellet4topbraid#ApplyPellet"
 		);
 	}
+
 }

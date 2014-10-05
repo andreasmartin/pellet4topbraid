@@ -1,10 +1,4 @@
-/*
- * This file is part of the pellet4topbraid project.
- * Homepage:  http://code.google.com/p/pellet4topbraid/
- * 
- */
-
-package pellet4topbraid.sm;
+package pellet4topbraid;
 
 import org.mindswap.pellet.jena.PelletReasonerFactory;
 import org.topbraid.spin.progress.ProgressMonitor;
@@ -16,12 +10,8 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.reasoner.Reasoner;
 
-
-/**
- * A SPARQLMotion module that applies Pellet on the input graph.
- */
-public class ApplyPelletModule extends AbstractSMModule {
-
+public class PelletSMModule extends AbstractSMModule {
+	
 	@Override
 	protected Graph createGraph(ProgressMonitor monitor) throws SMException {
 		// Get RDF graph from predecessor modules
@@ -31,4 +21,5 @@ public class ApplyPelletModule extends AbstractSMModule {
 		Reasoner reasoner = PelletReasonerFactory.theInstance().create();
 		return ModelFactory.createInfModel( reasoner, inputModel ).getGraph();
 	}
+
 }

@@ -4,15 +4,15 @@
    <extension
          point="org.topbraid.core.pluginActivators">
       <activator
-            class="pellet4topbraid.sm.PelletPluginActivator">
+            class="pellet4topbraid.PelletPluginActivator">
       </activator>
    </extension>
    <extension
-         point="org.topbraid.inference.inferenceEngines">
+         point="org.topbraid.core.inferenceEngines">
       <inferenceEngine
             class="pellet4topbraid.PelletInferenceEngine"
             id="pellet4topbraid.inferenceEngine"
-            name="Pellet 2.3.1">
+            name="Pellet 2.3.2-SNAPSHOT">
       </inferenceEngine>
    </extension>
 
